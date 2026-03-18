@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --color-background: 0 0% 100%;
+  --color-foreground: 240 10% 3.9%;
+  
+  --color-card: 0 0% 100%;
+  --color-card-foreground: 240 10% 3.9%;
+  
+  --color-popover: 0 0% 100%;
+  --color-popover-foreground: 240 10% 3.9%;
+  
+  --color-primary: 210 45% 75%; /* #a4c2dc - Primary Blue */
+  --color-primary-foreground: 0 0% 10%;
+  
+  --color-secondary: 240 4.8% 95.9%;
+  --color-secondary-foreground: 240 5.9% 10%;
+  
+  --color-muted: 240 4.8% 95.9%;
+  --color-muted-foreground: 240 3.8% 46.1%;
+  
+  --color-accent: 45 100% 90%;
+  --color-accent-foreground: 240 5.9% 10%;
+  
+  --color-destructive: 0 84.2% 60.2%;
+  --color-destructive-foreground: 0 0% 98%;
+  
+  --color-border: 240 5.9% 90%;
+  --color-input: 240 5.9% 90%;
+  --color-ring: 210 45% 75%;
+  
+  --radius: 0.75rem;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/30;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .clip-text-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-primary to-[#678db0];
+  }
+  
+  /* Custom Wave Animation */
+  @keyframes wave {
+    0%, 100% { transform: scaleY(1); }
+    50% { transform: scaleY(0.5); }
+  }
+  
+  .animate-wave {
+    animation: wave 1.2s ease-in-out infinite;
+  }
+  
+  .animate-wave-slow {
+    animation: wave 2s ease-in-out infinite;
+  }
+  
+  .animate-wave-fast {
+    animation: wave 0.8s ease-in-out infinite;
+  }
+}
+
+.shadow-custom {
+  box-shadow: 
+    rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
