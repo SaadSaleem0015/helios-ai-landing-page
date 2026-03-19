@@ -287,7 +287,7 @@ export default function CallDemo() {
     );
 
     return {
-      hourly: Math.max(0, RATE_LIMIT_CONFIG.MAX_CALLS_PER_HOUR - callsLastHour.length),
+      hourly: Math.max(0, RATE_LIMIT_CONFIG.MAX_CALLS_PER_DAY - callsLastHour.length),
       daily: Math.max(0, RATE_LIMIT_CONFIG.MAX_CALLS_PER_DAY - callsLastDay.length),
     };
   };
@@ -331,7 +331,7 @@ export default function CallDemo() {
               </span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Try our AI voice assistant live. See how natural conversations feel with Helios AI.
+              Try our AI voice assistant live. See how natural conversations feel with The Helios AI.
             </p>
           </motion.div>
 

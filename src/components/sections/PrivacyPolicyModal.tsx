@@ -291,7 +291,7 @@ export function PrivacyPolicy() {
                 <h3 className="text-lg font-semibold text-gray-900">Our Commitment to Privacy</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                At BrandMize, we take your privacy seriously. This policy describes how we collect, 
+                At The Helios AI, we take your privacy seriously. This policy describes how we collect, 
                 use, and protect your personal information when you use our platform. By using our 
                 services, you trust us with your information, and we're committed to maintaining that 
                 trust.
@@ -370,11 +370,11 @@ export function PrivacyPolicy() {
                     please don't hesitate to reach out to our privacy team.
                   </p>
                   <a 
-                    href="mailto:privacy@brandmize.com"
+                    href="mailto:contact@theheliosai.com"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-colors"
                   >
                     <Mail className="w-4 h-4" />
-                    privacy@brandmize.com
+                    contact@theheliosai.com
                   </a>
                 </div>
               </div>
@@ -382,7 +382,7 @@ export function PrivacyPolicy() {
 
             {/* Footer Note */}
             <div className="text-center text-sm text-gray-500 pt-4">
-              <p>© {new Date().getFullYear()} BrandMize. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} The Helios AI. All rights reserved.</p>
             </div>
           </div>
         </div>

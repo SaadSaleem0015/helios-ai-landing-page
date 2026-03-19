@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="space-y-4">
               <img 
                 src="/logo.jpeg" 
-                alt="Helios AI" 
+                alt="The Helios AI" 
                 className="h-10 w-auto object-contain"
               />
               <p className="text-gray-600 font-medium leading-relaxed max-w-xs">

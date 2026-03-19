@@ -15,7 +15,7 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: "Helios AI tripled our demo bookings—it's like having a sales team that never sleeps! The AI voices are so natural, prospects can't tell they're not human.",
+      quote: "The Helios AI tripled our demo bookings—it's like having a sales team that never sleeps! The AI voices are so natural, prospects can't tell they're not human.",
       author: "Sarah L.",
       role: "CEO @GrowthHack Inc.",
       rating: 5,
@@ -39,7 +39,7 @@ export default function Testimonials() {
     },
     {
       id: 4,
-      quote: "I was skeptical about AI voices, but Helios AI is indistinguishable from human callers. Our conversion rates increased by 240% immediately.",
+      quote: "I was skeptical about AI voices, but The Helios AI is indistinguishable from human callers. Our conversion rates increased by 240% immediately.",
       author: "David W.",
       role: "VP Sales @ScaleUp",
       rating: 5,
@@ -55,7 +55,7 @@ export default function Testimonials() {
     },
     {
       id: 6,
-      quote: "We replaced 3 sales development reps with Helios AI and saw a 400% increase in qualified leads. The technology is revolutionary.",
+      quote: "We replaced 3 sales development reps with The Helios AI and saw a 400% increase in qualified leads. The technology is revolutionary.",
       author: "Alex B.",
       role: "CTO @InnovateLabs",
       rating: 5,
@@ -140,7 +140,7 @@ export default function Testimonials() {
             </div>
             
             <div className="text-lg text-gray-600 max-w-2xl">
-              Don't just take our word for it. See what industry leaders are saying about their success with Helios AI.
+              Don't just take our word for it. See what industry leaders are saying about their success with The Helios AI.
             </div>
           </motion.div>
         </motion.div>

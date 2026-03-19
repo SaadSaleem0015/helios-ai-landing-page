@@ -94,7 +94,7 @@ export default function ProductDemo() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold font-heading mb-4">
-            See Helios AI in <span className="relative inline-block after:content-[''] after:absolute after:w-full after:h-2 after:bg-[#a4c2dc] after:bottom-1 after:left-0 after:-z-10">Action</span>
+            See The Helios AI in <span className="relative inline-block after:content-[''] after:absolute after:w-full after:h-2 after:bg-[#a4c2dc] after:bottom-1 after:left-0 after:-z-10">Action</span>
           </h2>
         </div>
 

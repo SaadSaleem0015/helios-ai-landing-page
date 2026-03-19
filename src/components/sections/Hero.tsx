@@ -82,7 +82,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
-              Helios AI transforms cold outreach into genuine conversations using 
+              The Helios AI transforms cold outreach into genuine conversations using 
               <span className="font-semibold text-[#7fa6c8]"> hyper-realistic AI voices</span>. 
               Personalize at scale, connect emotionally, and convert effortlessly.
             </motion.p>
@@ -162,7 +162,7 @@ export default function Hero() {
               <div className="w-full h-full relative z-0">
                 <iframe 
                   src="https://fast.wistia.net/embed/iframe/dmhz3pmgpr?seo=false&videoFoam=true" 
-                  title="Helios AI Video" 
+                  title="The Helios AI Video" 
                   allow="autoplay; fullscreen" 
                   allowTransparency={true} 
                   frameBorder="0" 
